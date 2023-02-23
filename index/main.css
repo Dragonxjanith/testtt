@@ -1,0 +1,108 @@
+.content {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    /* height: calc(100vh - 56px); */
+    overflow: auto;
+}
+
+.btn {
+    font-size: xx-large !important;
+    background-color: Blue !important;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+.download-btn img {
+    height: 40px;
+}
+
+.language-select a {
+    height: 150px;
+    line-height: 120px;
+    background-color: #0029a3;
+    color: white;
+    font-size: xx-large;
+}
+
+.language-select a:hover {
+    background-color: #000cb3 !important;
+    color: white;
+}
+
+
+
+.instruction {
+    text-align: center;
+    font-size: x-large;
+}
+
+@media (max-width: 576px) {  
+.download-btn img {
+        height: 30px;
+    }
+h5 {
+    font-size: 0.8rem;
+}
+.language-select a {
+    height: 150px;
+    line-height: 100px;
+    font-size: xx-large;
+}
+
+.instruction {
+    font-size: 1.0rem;
+}
+.navbar-brand {
+    display: none !important;
+}
+}
+
+.free-courses .search button, .free-courses .search input{
+    height: 40px;
+    border-left: none;
+    appearance: none;
+    border: 1px solid green;
+    outline: none;
+}
+
+.free-courses .search input{
+    border-right: none;
+    width: 30vw;
+    max-width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 15px;
+}
+
+.free-courses .search button{
+    background-color: green;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 576px) {  
+    .free-courses .search input{
+        width: calc(100vw - 120px);
+    }
+}
+
+.free-courses .search{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.free-courses h2{
+    font-size: 18px;
+}
+
+.free-courses{
+    text-align: center;
+}

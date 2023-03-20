@@ -218,7 +218,7 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .cover-slides{
-	height: 350px;
+	height: 60vh;
 }
 .slides-navigation a {
 	background: #2a2986;

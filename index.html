@@ -1,170 +1,450 @@
 <!DOCTYPE html>
-<!-- saved from url=(0014)about:internet -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO -->
-  <title>Thivanka.Lk</title>
-		<meta name="description" content="Thivanka.lk is a Sri Lankan tech news and educational website, publishing tech news, feature stories, and tech product reviews in Sinhala, Tamil and English."/>
+<html lang="en"><!-- Basic -->
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
    
-   
-   
-   
-   
-   
-      
-	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-	<noscript>
-	<link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"></noscript>
-	<link rel="shortcut icon" href="https://www.thivanka.lk/thivanka.png" type="image/x-icon">
-<script src="assets/js/AutoTyping.js"></script>
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
  
- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6743918760716548"
-     crossorigin="anonymous"></script>
-	    
-	<meta name="keywords" content="Thivanka Nirmal Jayathissa,Thivanka.lk,thivanka.lk,thiwanka.lk,thiwanka,thivanka.lk,thiva,tecnology,tecnical,school,sri lanka,sl,geek"/>
- 
- 
-<meta property="og:site_name" content="Thivanka.lk" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Thivanka.lk" />
-<meta property="og:description" content="Thivanka.lk is a Sri Lankan tech news and educational website, publishing tech news, feature stories, and tech product reviews in Sinhala, Tamil and English." />
-<meta property="og:url" content="https://www.thivanka.lk/" />
-<meta property="og:image" content="https://www.thivanka.lk/thivanka.png" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />   
+     <!-- Site Metas -->
+    <title>Kasun Super</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Thivanka.lk" />
-<meta name="twitter:description" content="Thivanka.lk is a Sri Lankan tech news and educational website, publishing tech news, feature stories, and tech product reviews in Sinhala, Tamil and English." />
-<meta name="twitter:url" content="https://www.thivanka.lk/" />
-<meta name="twitter:image" content="https://www.thivanka.lk/thivanka.png" />
-<meta name="twitter:site" content="@thivanka.lk" />
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "publisher": {
-        "@type": "Organization",
-        "name": "Thivanka.lk - Sinhala Tech News provider",
-        "url": "https://www.thivanka.lk/",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.thivanka.lk/Thivanka.png"
-        }
-    },
-    "url": "https://www.thivanka.lk/",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.thivanka.lk/"
-    },
-    "description": "Thivanka.lk is a Sri Lankan tech news and educational website, publishing tech news, feature stories, and tech product reviews in Sinhala, Tamil and English."
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+<style>
+#hcg-slider-1 .hcg-slide-container {
+	width: auto;
+	height: auto;
 }
-    </script>
-   
-<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">		
-		
-<!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#00188f">
-<!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#00188f">
-<!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#00188f">
+.hcg-slider {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.hcg-slide-container {
+	max-width: 100%;
+	display: inline-block;
+	position: relative;
+}
+.hcg-slides {
+	display: none;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	border: solid 1px #a0a0a0;
+}
+.hcg-slides img {
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+}
+.hcg-slide-number {
+	color: #ffffff;
+	font-size: 12px;
+	padding: 4px 7px;
+	position: absolute;
+	border-radius: 5px;
+	top: 5px;
+	left: 5px;
+	background-color: rgba(255,255,255,0.30);
+}
+/************CSS Animation***********/
+
+.animated { 
+	animation-name: fadeIn; 
+	animation-duration: 1s;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.fadeIn {
+	animation-name: fadeIn;
+}
 
 
+</style>
 
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-      
-
-    </head>
-	
-	 
-    <body>
-	
-
- 
-	
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-05WNVW1RFF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-05WNVW1RFF');
-</script>
-
-   
-   
-
-   
-
-     <link rel="stylesheet" href="./index/bootstrap.min.css">
-    <link rel="stylesheet" href="./index/main.css">
-
- 
 </head>
+
 <body>
-   
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" wi />
+					<img src="images/logo2.png" alt="" wi />
+	
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="menu.html">Catagary</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+							
+								<a class="dropdown-item" href="#">Adaviya Resort</a>
+								<a class="dropdown-item" href="#">Kasun Electrical</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<!-- Start slides -->
+	<div id="slides" class="cover-slides">
+		<ul class="slides-container">
+			<li class="text-left">
+				<img src="images/slider-01.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+<br><br><br><br>
+							<h1 class="m-b-20"><strong>Kasun Super Mahiyangana</strong></h1>
+							<p class="m-b-40">Our main aim is to provide the people of mahiyangana with the best.</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Buy Now</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-left">
+				<img src="images/slider-02.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+				<br><br><br><br>		
+							<h1 class="m-b-20">කසුන් සුපර් මහියංගණය</strong></h1>
+							<p class="m-b-40">මහියංගනයේ ජනතාවට හොඳම දේ ලබාදීම අපේ ප්‍රධාන අරමුණයි.</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">දැන් මිලදී ගන්න</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-left">
+				<img src="images/slider-03.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+						
+						<br><br><br><br>
+							<h1 class="m-b-20"><strong>கசுன் சூப்பர் மஹியங்கன</strong></h1>
+							<p class="m-b-40">மஹியங்கனை மக்களுக்கு சிறந்தவற்றை வழங்குவதே எமது பிரதான நோக்கமாகும்.</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">இப்போது வாங்கவும்</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="slides-navigation">
+			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<!-- End slides -->
+	
+	
+<!-- Start About -->
+	<div class="about-section-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
+					<div class="inner-column">
+						<h1>Welcome To <span> Kasun Super</span></h1>
+						<h4>Additional information</h4>
+						<p>Our main aim is to provide the people of mahiyangana with the best. We are a profit-oriented business but always think about the customers first. We respect Your opinions . Please let us know your thoughts and expectations to improve and travel further.
+Our mission is to serve the customers with the best satisfying the needs and wants</p>
+						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Shopping</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<img src="images/about-img.png" alt="" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About -->
+	
+	
+	
+		<!-- Start QT -->
+	<div class="qt-box qt-background">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto text-center">
+					<p class="lead ">
+						" මහියංගනයේ ජනතාවට හොඳම දේ ලබාදීම අපේ ප්‍රධාන අරමුණයි. "
+					</p>
+					<span class="lead">- CEO -</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End QT -->
+	
+	
+	
+	<!-- Start Gallery -->
+	<div class="gallery-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Shop by Brand</h2>
+						<p>දැන් ඔබට ප්‍රසිද්ද වෙළද නාම යටතේ භාන්ඩ මිලදී ගත හැක</p>
+					</div>
+				</div>
+			</div>
+			<div class="tz-gallery" align="center">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/brand1.png">
+							<img class="img-fluid" src="images/brand1.png" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/brand2.png">
+							<img class="img-fluid" src="images/brand2.png" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/brand3.png">
+							<img class="img-fluid" src="images/brand3.png" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/brand4.png">
+							<img class="img-fluid" src="images/brand4.png" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/brand5.png">
+							<img class="img-fluid" src="images/brand5.png" alt="Gallery Images">
+						</a>
+					</div> 
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/brand6.png">
+							<img class="img-fluid" src="images/brand6.png" alt="Gallery Images">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+	<br>
+		<div id="hcg-slider-1" class="hcg-slider">
+	<div class="hcg-slide-container">
+	<div class="hcg-slider-body">
+		<a class="hcg-slides animated" style="display:flex">
+			<span class="hcg-slide-number">1/5</span>
+			<img src="https://cargillsonline.com/VendorItems/Banner/DySec-pLBXN0vlI5022023_Online%20ESl%20Promo-Web%201400x450.jpg" alt="Image 1">
+			<span class="hcg-slide-text">Image 1</span>
+		</a>
+	</div>
+</div>
+	
+	<br><br>
+	<!-- Start Contact info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 arrow-right">
+					<i class="fa fa-volume-control-phone"></i>
+					<div class="overflow-hidden">
+						<h4>Phone</h4>
+						<p class="lead">
+							+94 768 211 424
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 arrow-right">
+					<i class="fa fa-envelope"></i>
+					<div class="overflow-hidden">
+						<h4>Email</h4>
+						<p class="lead">
+							info@kasunsuper.com
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-map-marker"></i>
+					<div class="overflow-hidden">
+						<h4>Location</h4>
+						<p class="lead">
+							Widanagamage shoping complex, mahiyanganaya.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact info -->
+	
 
-    <div class="container">
-        <nav class="fixed-top navbar navbar-expand-sm navbar-dark" style="background-color: Blue;">
-            <img class="mr-3" style="height: 50px;" src="thivanka.png" alt="" srcset="">
+	<br>
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>About Us</h3>
+					<p>Our main aim is to provide the people of mahiyangana with the best.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Subscribe</h3>
+					<div class="subscribe_form">
+						<form class="subscribe_form">
+							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+							<button type="submit" class="submit">SUBSCRIBE</button>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+					<ul class="list-inline f-social">
+						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contact information</h3>
+					<p class="lead">widanagamage Shoping Complex, Mahiyanganaya</p>
+					<p class="lead"><a href="#">+94 768 211 424</a></p>
+					<p><a href="#"> info@kasunsuper.com</a></p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Opening hours</h3>
+					<p><span class="text-color">Every Day: </span>8.00AM - 10.00PM</p>
+			
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" style="font-weight: 600;" href="https://thivanka.lk/thivankaonline">Authors</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" style="font-weight: 600;" href="https://thivanka.lk/si/about">About Us</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+			</div>
+		</div>
+		
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name">All Rights Reserved. &copy; 2023 <a href="#">Kasun Super</a> Design By : 
+					<a href="https://www.thivanka.lk/">Thivanka.Lk</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- End Footer -->
+	
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
 
-          <div class="content d-flex flex-column align-items-center justify-content-center">
-            <div class="d-flex flex-row">
-              <img class="mr-3 mt-5" style="height: 150px;" src="1.gif" alt="" srcset="">
-            </div>
-            <div style="margin-top: 25px;">
-              <p class="instruction">තාක්ෂණික ලෝකයට සාදරයෙන් පිළිගනිමු<br>
-                தொழில்நுட்ப உலகிற்கு வரவேற்கிறோம்<br>
-                Welcome to Tecnology World</p>
-            </div>
-              <div class="language-select d-flex flex-column flex-sm-row w-100 mb-5">
-                <a href="https://www.thivanka.lk/si" class="btn btn-danger w-100 my-2 mr-sm-3">සිංහල
-                </a>
-                <a href="https://www.thivanka.lk/en" class="btn btn-danger w-100 my-2 mr-sm-3">English
-                </a>
-                <a href="https://www.thivanka.lk/ti" class="btn btn-danger w-100 my-2">தமிழ்
-                </a>
-              </div>
+	<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/custom.js"></script>
+	<script>
+(() => {
+//If you want to add more images, add the link name and URL image URL in the array list below.
+	const images_list = [
+{
+    "url": "https://cargillsonline.com/VendorItems/Banner/DySec-pLBXN0vlI5022023_Online%20ESl%20Promo-Web%201400x450.jpg",
+    "alt": "",
+    "name": "Image 1",
+    "link": ""
+},
+{
+    "url": "https://cargillsonline.com/VendorItems/Banner/DySec-peBXN0ZlHxOlo-450x1400.jpg",
+    "alt": "",
+    "name": "",
+    "link": ""
+}
+	];
 
-              <div class="free-courses">
-                <h2>Search Thivanka.Lk</h2>
-                <div class="search">
-                  <form action="https://www.thivanka.lk/" method="GET">
-                    <input name="search" type="text" placeholder="What do you want to Search?" required=""><button type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
+// generated by https://www.html-code-generator.com/html/image-slideshow-generator
+	let slider_id = document.querySelector("#hcg-slider-1");
 
-             
-          </div>
+	// append all images
+	let dots_div = "";
+	let images_div = "";
+	for (let i = 0; i < images_list.length; i++) {
+		// if no link without href="" tag
+		let href = (images_list[i].link == "" ? "":' href="'+images_list[i].link+'"');
+		images_div += '<a'+href+' class="hcg-slides animated"'+(i === 0 ? ' style="display:flex"':'')+'>'+
+						'<span class="hcg-slide-number">'+(i+1)+'/'+images_list.length+'</span>'+
+						'<img src="'+images_list[i].url+'" alt="'+images_list[i].name+'">'+
+					 '</a>';
+	}
+	slider_id.querySelector(".hcg-slider-body").innerHTML = images_div;
+	let slide_index = 0;
 
-         
-    </div>
+	const images = slider_id.querySelectorAll(".hcg-slides");
+	const showSlides = () => {
+		if (slide_index > images.length-1) {
+			slide_index = 0;
+		}
+		if (slide_index < 0) {
+			slide_index = images.length-1;
+		}
+		for (let i = 0; i < images.length; i++) {
+			images[i].style.display = "none";
+			if (i == slide_index) {
+				images[i].style.display = "flex";
+			}
+		}
+	}
 
+	// auto play
+	setInterval(() => {
+		slide_index++;
+		showSlides();
+	}, 4000);
 
+})();
 
-
-
+</script>
 </body>
 </html>
